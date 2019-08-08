@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(rgb(6, 77, 209),rgb(153, 44, 196));
+    
+}
+
+
+
+#movies img, #movie img{
+    width:100%;
+   
+
+}
+@media(min-width:960px) {
+    #movies .col-md-3 .well {
+        height: 350px;
+    }
+
+    #movies .col-md-3 img {
+        height:240px;
+    }
+}
